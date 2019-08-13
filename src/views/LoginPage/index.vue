@@ -191,8 +191,18 @@ export default {
     opacity: 0.9;
     margin: 0px 20px;
     margin-top: -100px;
+    animation: identifier 0.8s ease;
     // border: solid #ccc 1px;
-
+    @keyframes identifier {
+      from {
+        opacity: 0;
+        transform: scale(0.1);
+      }
+      to {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
     .title {
       color: #fff;
       font-weight: bold;
