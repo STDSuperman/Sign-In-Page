@@ -233,7 +233,7 @@ export default {
     }
 
     .area-select {
-      width: 70px;
+      width: 110px;
       background-color: transparent;
     }
 
