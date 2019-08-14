@@ -143,6 +143,7 @@ export default {
             phone: this.form.phoneNumber,
             captcha: this.form.verificationCode
           };
+          /**调用api请求方法并传入数据 */
           submit(formData).then(res => {
             if (res.data && res.data.success) {
               /**登录成功清空输入数据 */
